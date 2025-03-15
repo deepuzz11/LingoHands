@@ -1,18 +1,7 @@
-# LingoHands - Translating Gestures, Connecting Worlds 🌍🤝
-
-## Introduction
-LingoHands is an AI-powered real-time American Sign Language (ASL) detection system designed to bridge communication gaps for the hearing-impaired. It utilizes deep learning and computer vision to recognize ASL signs from images and video feeds, making communication more accessible and inclusive.
-
-## Features
-- **ASL Alphabet Recognition**: Identifies 26 ASL alphabet signs along with special gestures (e.g., space, delete, nothing).
-- **Deep Learning Model**: Trained using a Convolutional Neural Network (CNN) for high accuracy.
-- **Real-time Prediction**: Capable of recognizing signs from live webcam input.
-- **Preprocessed Dataset**: Utilizes the ASL Alphabet dataset for training and validation.
-# 🤟 LingoHands - AI-Powered ASL Detection
+# 🤟 LingoHands, an AI-Powered ASL Detection : Translating Gestures, Connecting Worlds 🌍🤝
 
 ## 🌍 Bridging the Communication Gap
 LingoHands is an AI-powered real-time American Sign Language (ASL) detection system designed to enhance accessibility for the hearing-impaired. By leveraging deep learning and computer vision, it accurately recognizes ASL signs from images and video streams, fostering inclusivity in a communication-driven world.
-
 ---
 ## ✨ Features
 ✅ **ASL Alphabet Recognition** – Detects all 26 ASL letters plus special signs (space, delete, nothing).  
@@ -47,7 +36,7 @@ The model was trained using TensorFlow and Keras, with categorical cross-entropy
 - **80-20 train-validation split** to ensure generalization.
 - **Accuracy of over 90%** achieved on validation data.
 
-📈 Performance metrics include:
+### 📈 Performance metrics include:
 - Training and validation accuracy/loss trends.
 - Real-time testing with new ASL sign images.
 
@@ -75,6 +64,7 @@ plt.legend()
 plt.title('Model Loss')
 plt.show()
 ```
+![image](https://github.com/user-attachments/assets/b7a35b04-f042-4d75-a671-0fe38b6d6ba8)
 
 ---
 ## 🌍 Real-World Applications
@@ -83,25 +73,6 @@ LingoHands is more than just an AI model; it’s a step toward accessibility and
 - 🔹 **Educational Tools** – Assists ASL learners with interactive practice.
 - 🔹 **Smart Assistants** – Recognizes ASL gestures for seamless smart home integration.
 - 🔹 **Healthcare & Emergency Services** – Helps patients communicate with medical professionals.
-
----
-## 🚀 Get Started
-### 1️⃣ Clone the Repository
-```bash
-git clone https://github.com/deepuzz11/LingoHands.git
-```
-### 2️⃣ Install Dependencies
-```bash
-pip install opencv-python tensorflow numpy matplotlib
-```
-### 3️⃣ Train the Model (if needed)
-```python
-python train.py
-```
-### 4️⃣ Run Predictions
-```python
-python predict.py --image path/to/image.jpg
-```
 
 ---
 ## 🎬 Demo
@@ -131,6 +102,7 @@ def predict_asl_image(img_path):
 sample_img_path = "path/to/sample_image.jpg"
 predict_asl_image(sample_img_path)
 ```
+![image](https://github.com/user-attachments/assets/7a4cfe9a-d320-4312-bda0-5baa7c89017c)
 
 ---
 ## 🔮 Future Enhancements
@@ -140,10 +112,3 @@ predict_asl_image(sample_img_path)
 🤖 Integration with **voice assistants** for seamless communication.  
 
 ---
-## 🤝 Contribute & Collaborate
-Join us in making sign language recognition more accessible! 🎉
-🔹 Submit a PR or open an issue to contribute.
-🔹 Reach out with suggestions and ideas!
-
-📧 **Contact**: deepuzz11@gmail.com
-
