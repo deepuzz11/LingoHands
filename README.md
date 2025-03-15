@@ -1,7 +1,9 @@
 # 🤟 LingoHands, an AI-Powered ASL Detection : Translating Gestures, Connecting Worlds 🌍🤝
 
 ## 🌍 Bridging the Communication Gap
+
 LingoHands is an AI-powered real-time American Sign Language (ASL) detection system designed to enhance accessibility for the hearing-impaired. By leveraging deep learning and computer vision, it accurately recognizes ASL signs from images and video streams, fostering inclusivity in a communication-driven world.
+
 ---
 ## ✨ Features
 ✅ **ASL Alphabet Recognition** – Detects all 26 ASL letters plus special signs (space, delete, nothing).  
